@@ -9,7 +9,8 @@ const Hero = () => {
         <button
           type="button"
           className="black-btn"
-          onClick={() => {window.open('https://github.com/Shivelle')}}>
+          formTarget="_blank"
+          onClick={() => {window.open('https://github.com/Shivelle/text-summarizer')}}>
             <DiGithubBadge size={18}/> GitHub
         </button>
       </nav>
