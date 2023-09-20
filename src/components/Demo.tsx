@@ -106,9 +106,15 @@ const Demo = () => {
                 className="font-inter font-bold text-black text-center">
                 Sorry, that wan't supossed to happen... 
                 <br />
-                <span className="font-satoshi font-normal text-gray-700">
-                  {error as string}
-                </span>
+                {error && ('error' in error ? (
+                  <span className="font-satoshi font-normal text-gray-700">
+                    {error.error}
+                  </span>
+                ) : 'message' in error ? (
+                  <span className="font-satoshi font-normal text-gray-700">
+                    {error.message}
+                  </span>
+                ) : null)}
                 Please try again later
               </p>
             ) : ( 
