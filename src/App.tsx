@@ -1,5 +1,5 @@
 import Hero from './components/Hero';
-import Demo from './components/Demo';
+import Summarizer from './components/Summarizer';
 
 import './App.css';
 
@@ -12,7 +12,7 @@ export const App = () => {
 
       <div className="app">
         <Hero />
-        <Demo />
+        <Summarizer />
       </div>
     </main>
   )

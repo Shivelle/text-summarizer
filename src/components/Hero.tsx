@@ -17,7 +17,7 @@ const Hero = () => {
       <h1 className="head-text">Summarize your text <br className="max-md:hidden" />
       <span className="orange-gradient">with the help of AI</span></h1>
       <h2 className="desc">
-        Shorten your time reading long articles and documents with Summize, an open-source text summarizer that transforms the text you are reading into a shorter version.
+        Shorten your time reading long articles and documents with the AI Text Summarizer, an open-source text summarizer that transforms the text you are reading into a shorter version.
       </h2>
     </header>
   )

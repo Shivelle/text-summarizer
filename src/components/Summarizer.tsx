@@ -3,7 +3,7 @@ import { BsLink, BsSend, BsClipboardPlus } from 'react-icons/bs';
 import { PiSpinnerGapBold } from 'react-icons/pi';
 import { useLazyGetSummaryQuery } from '../services/text';
 
-const Demo = () => {
+const Summarizer = () => {
   const [text, setText] = useState({
     url: '',
     paragraphs: '3',
@@ -137,4 +137,4 @@ const Demo = () => {
   )
 }
 
-export default Demo
+export default Summarizer
